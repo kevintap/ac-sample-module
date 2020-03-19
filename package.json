@@ -1,0 +1,37 @@
+{
+  "name": "test-module",
+  "version": "1.0.0",
+  "description": "sample custom block",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@acoustic-content-sdk/api": "^9",
+    "@acoustic-content-sdk/ng": "^9",
+    "@angular/common": "9.0.7",
+    "@angular/compiler": "^9.0.7",
+    "@angular/compiler-cli": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "@angular/platform-browser": "^9.0.7",
+    "@angular/router": "9.0.7",
+    "ng-packagr": "^9.0.3",
+    "rxjs": "^6.5.4",
+    "tsickle": "^0.38.1",
+    "typescript": "3.7.5",
+    "zone.js": "^0.10.3"
+  },
+  "peerDependencies": {
+    "@acoustic-content-sdk/api": "^9",
+    "@acoustic-content-sdk/ng": "^9",
+    "@angular/common": "9.0.7",
+    "@angular/core": "^9.0.7",
+    "@angular/router": "9.0.7"
+  },
+  "scripts": {
+    "build": "ng-packagr -p package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "ngPackage": {}
+}
