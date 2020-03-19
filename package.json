@@ -13,6 +13,7 @@
     "@angular/core": "^9.0.7",
     "@angular/platform-browser": "^9.0.7",
     "@angular/router": "9.0.7",
+    "copyfiles": "^2.2.0",
     "ng-packagr": "^9.0.3",
     "rxjs": "^6.5.4",
     "sync-files": "^1.0.3",
@@ -29,7 +30,7 @@
   },
   "scripts": {
     "build": "ng-packagr -p package.json",
-    "postbuild": "sync-files --no-delete ./assets ./dist/assets"
+    "postbuild": "copyfiles  \"./assets/**/*.*\" ./dist"
   },
   "publishConfig": {
     "access": "public"
