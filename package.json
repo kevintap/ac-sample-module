@@ -1,5 +1,5 @@
 {
-  "name": "test-module",
+  "name": "@kevintap/ac-sample-module",
   "version": "1.0.0",
   "description": "sample custom block",
   "main": "index.js",
