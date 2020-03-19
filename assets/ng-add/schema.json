@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "id": "kevintap-ac-sample-module",
+    "title": "Kevin AC Sites Sample Module",
+    "type": "object",
+    "properties": {
+      "module": {
+        "type": "string",
+        "description": "Kevin AC Sites Sample Module",
+        "default": "MyLayoutModule"
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  }

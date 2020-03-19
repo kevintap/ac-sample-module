@@ -15,6 +15,7 @@
     "@angular/router": "9.0.7",
     "ng-packagr": "^9.0.3",
     "rxjs": "^6.5.4",
+    "sync-files": "^1.0.3",
     "tsickle": "^0.38.1",
     "typescript": "3.7.5",
     "zone.js": "^0.10.3"
@@ -27,11 +28,13 @@
     "@angular/router": "9.0.7"
   },
   "scripts": {
-    "build": "ng-packagr -p package.json"
+    "build": "ng-packagr -p package.json",
+    "postbuild": "sync-files --no-delete ./assets ./dist/assets"
   },
   "publishConfig": {
     "access": "public"
   },
   "private": false,
+  "schematics": "./assets/collection.json",
   "ngPackage": {}
 }
