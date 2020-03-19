@@ -1,6 +1,6 @@
 {
   "name": "@kevintap/ac-sample-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sample custom block",
   "main": "index.js",
   "license": "MIT",
