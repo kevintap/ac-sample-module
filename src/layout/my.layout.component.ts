@@ -6,7 +6,7 @@ import { RenderingContextV2 } from '@acoustic-content-sdk/api';
     selector: 'app-my-layout'
   })
   @Component({
-    selector: 'app-my-layout',
+    selector: 'app-my-layout-component',
     templateUrl: './my.layout.component.html',
     styleUrls: ['./my.layout.component.scss'],
     changeDetection: ChangeDetectionStrategy.OnPush,
