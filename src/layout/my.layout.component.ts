@@ -3,7 +3,7 @@ import { LayoutComponent } from '@acoustic-content-sdk/ng';
 import { RenderingContextV2 } from '@acoustic-content-sdk/api';
 
 @LayoutComponent({
-    selector: 'LAYOUT_ID'
+    selector: 'app-my-layout'
   })
   @Component({
     selector: 'app-my-layout',

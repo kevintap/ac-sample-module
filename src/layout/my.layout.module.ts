@@ -15,7 +15,7 @@ import { MyLayoutComponent  as LayoutComponent } from './my.layout.component';
   exports: [LayoutComponent],
   entryComponents: [LayoutComponent]
 })
-export class MyLayoutModule{
+export class MyLayoutModule {
   constructor(
     @Inject(ACOUSTIC_TOKEN_COMPONENT_REGISTRY) aRegistry: ComponentRegistry
   ) {
