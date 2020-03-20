@@ -20,6 +20,7 @@ export class MyLayoutModule {
     @Inject(ACOUSTIC_TOKEN_COMPONENT_REGISTRY) aRegistry: ComponentRegistry
   ) {
     // register the component
+    console.log('KGT:: register type!');
     aRegistry.registerType(LayoutComponent);
   }
 }

@@ -17,4 +17,8 @@ import { RenderingContextV2 } from '@acoustic-content-sdk/api';
     renderingContext: RenderingContextV2;
     @Input()
     layoutMode: string;
+
+    constructor() {
+      console.log('KGT:: MyLayoutComponent ctor!');
+    }
   }
